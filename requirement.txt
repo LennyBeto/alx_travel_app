@@ -1,0 +1,17 @@
+# 📦 Project Dependencies (requirements.txt)
+
+This alx_travel_app project relies on a requirements.txt file to precisely list all external Python packages and 
+their specific versions. This ensures a reproducible and consistent development environment across all machines, 
+making setup straightforward for anyone working on the project.
+
+## How to Install
+
+To install all necessary dependencies for this project, simply run the following command in your activated virtual environment:
+
+- bash
+  pip install -r requirements.txt
+
+## How to Generate (for maintainers)
+  If you've added new packages, you can update this file by running:
+- bash 
+ pip freeze > requirements.txt
